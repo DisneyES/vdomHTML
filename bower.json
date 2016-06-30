@@ -1,8 +1,8 @@
 {
-  "name": "atresmedia_diff",
+  "name": "vdom_diff",
   "main": [
-    "build/atresmedia_diff.js",
-    "build/atresmedia_diff.min.js"
+    "build/vdom_diff.js",
+    "build/vdom_diff.min.js"
   ],
   "dependencies": {
     "jquery": "~2.1.4",

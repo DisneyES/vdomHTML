@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     config: {
       testPort        : 3000,
       livereloadPort  : 3101,
-      moduleName      : 'atresmedia_diff',
+      moduleName      : 'vdom_diff',
       buildFolder     : 'build',
       srcFolder       : 'src',
       testFolder      : 'www-test',

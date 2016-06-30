@@ -1,12 +1,12 @@
 {
-  "name": "atresmedia_diff",
+  "name": "vdom_diff",
   "version": "0.1.0",
   "description": "",
-  "main": "src/atresmedia_diff.js",
+  "main": "src/vdom_diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "i3tv",
+  "author": "ivan Mejias",
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.8.23",
