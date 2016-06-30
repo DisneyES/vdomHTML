@@ -1,0 +1,13 @@
+{
+  "name": "atresmedia_diff",
+  "main": [
+    "build/atresmedia_diff.js",
+    "build/atresmedia_diff.min.js"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.0",
+    "module_loader": "~0.1.4"
+  }
+}

@@ -1,0 +1,20 @@
+<h3>Prueba funcionamiento Minuto a Minuto</h3>
+<h2>Prueba Minuto a Minuto</h2>
+<ul class="list">
+	{% for item in range(0, max) %}
+		{% if loop.index == 1 %}
+			{% set model = {"id":"574da0e4db8cf20cd05fb75c","type":"audio","tipo":"audio","subtipo":"Audio","imgThumb":"http://image.ondacero.antena3tv.es//clipping/wd_unico01/atres-cms/pre/images//2016/06/22/B691372B-89DB-4D95-A5CA-15316A9C765B/29.jpg","imgPoster":"http://image.ondacero.antena3tv.es//clipping/wd_unico01/atres-cms/pre/images//2016/06/22/B691372B-89DB-4D95-A5CA-15316A9C765B/31.jpg","live":false,"autoplay":true,"download":true,"waveform":"http://ondacero.antena3tv.es/videosrv/wd_unico01/atres-cms/pre/audios/audios01//2016/05/31/09FE75AB-34A2-49FB-9B30-4A6433646497/09FE75AB-34A2-49FB-9B30-4A6433646497.json","sources":[{"src":"http://ondacero.antena3tv.es/videosrv/wd_unico01/atres-cms/pre/audios/audios01//2016/05/31/09FE75AB-34A2-49FB-9B30-4A6433646497/09FE75AB-34A2-49FB-9B30-4A6433646497.mp4","type":"audio/mp4"},{"src":"http://ondacero.antena3tv.es/videosrv/wd_unico01/atres-cms/pre/audios/audios01//2016/05/31/09FE75AB-34A2-49FB-9B30-4A6433646497/09FE75AB-34A2-49FB-9B30-4A6433646497.mp3","type":"audio/mp3"}],"omniture":{},"comscore":{},"duration":"122.004979","titulo":"Nuevo Player OC audio","descripcion":""} %}
+			<li>
+				<span>{{loop.index}}</span>
+			    <p class="fecha">Actualizado a las 02:25 PM</p>
+				<atres-player data-model='{{ model|dump }}'></atres-player>
+			</li>
+		{% else %}
+			<li>
+				<span>{{loop.index}}</span>
+			    <p class="fecha">Actualizado a las 02:25 PM</p>
+				<img src="http://image.ondacero.antena3tv.es//clipping/wd_unico01/atres-cms/pre/images//2016/06/15/C0D895E0-91D1-4D3C-967F-1F0B4FD92765/33.jpg" class="img-responsive" alt="">
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
